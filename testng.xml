@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_Test">
+	<test name="Outlook email test">
+		<classes>
+			<class name="runner.TestRunner" />
+		</classes>
+	</test>
+</suite>

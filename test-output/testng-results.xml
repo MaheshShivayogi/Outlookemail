@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression_Test" duration-ms="46236" started-at="2019-11-20T12:39:11Z" finished-at="2019-11-20T12:39:57Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7403c468]" name="feature" class="runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Outlook email test" duration-ms="46236" started-at="2019-11-20T12:39:11Z" finished-at="2019-11-20T12:39:57Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@7403c468]" name="setUpClass" is-config="true" duration-ms="175" started-at="2019-11-20T12:39:11Z" finished-at="2019-11-20T12:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7403c468]" name="feature" duration-ms="45968" started-at="2019-11-20T12:39:11Z" description="Run Cucumber Feature" data-provider="features" finished-at="2019-11-20T12:39:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Outlook email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@7403c468]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2019-11-20T12:39:57Z" finished-at="2019-11-20T12:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Outlook email test -->
+  </suite> <!-- Regression_Test -->
+</testng-results>
